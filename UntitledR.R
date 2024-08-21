@@ -16,3 +16,11 @@ my_matrix_trans
 identity <- my_matrix_inv %*% my_matrix
 
 identity
+
+my_vector <- c(1, 1, 1)
+dim(my_vector) <- c(3,1)
+my_vector
+
+identity %*% my_vector
+my_vector
+t(my_vector)
