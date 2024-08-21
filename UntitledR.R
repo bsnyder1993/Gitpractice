@@ -3,8 +3,14 @@ my_matrix <- matrix(c(c(1,2,3), c(1,3,3), c(1,3,4)), nrow = 3)
 
 my_matrix
 
+my_sum <- sum(my_matrix)
+my_sum
+
 m2 <- my_matrix*my_matrix
 m2
+
+m3 <- my_matrix - m2
+m3
 
 my_matrix_inv <- solve(my_matrix)
 
