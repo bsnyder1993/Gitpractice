@@ -12,6 +12,15 @@ m2
 m3 <- my_matrix - m2
 m3
 
+vect <- c(1,1,1)
+vect2 <- my_matrix %*% vect
+vect2
+vect3 <- my_matrix %*% as.matrix(vect)
+vect3
+
+vect4 <- as.matrix(vect) * as.matrix(vect)
+vect4
+
 my_matrix_inv <- solve(my_matrix)
 
 my_matrix_inv
